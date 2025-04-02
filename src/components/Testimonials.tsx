@@ -3,7 +3,7 @@ const testimonials = [
       id: 1,
       name: "Carlos Méndez",
       text: "La mejor experiencia de barbería que he tenido. ¡El detalle en el acabado es increíble!",
-      avatar: "/avatars/1.jpg"
+      avatar: "/images/avatar.jpg"
     },
     // ...más testimonios
   ];
