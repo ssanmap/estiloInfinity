@@ -7,6 +7,7 @@ import { ContactForm } from './components/ContactForm';
 import { Footer } from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 export const App = () => {
   return (
@@ -23,6 +24,7 @@ export const App = () => {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </div>
     </Router>
   );

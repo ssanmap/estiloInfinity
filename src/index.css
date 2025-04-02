@@ -48,3 +48,13 @@ h1, h2, h3, h4 {
 .mobile-menu {
   transition: all 0.3s ease-in-out;
 }
+
+/* Animación personalizada */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.whatsapp-button {
+  animation: float 3s ease-in-out infinite;
+}
