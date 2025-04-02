@@ -3,7 +3,7 @@ import { Services } from '../components/Services';
 import { Gallery } from '../components/Gallery';
 import { Testimonials } from '../components/Testimonials';
 import { ContactForm } from '../components/ContactForm';
-import { VideoReel } from '../components/VideoReel';
+//import { VideoReel } from '../components/VideoReel';
 
 export const Home = () => {
   return (
@@ -13,7 +13,6 @@ export const Home = () => {
       <Services /> 
       <Testimonials />
       <ContactForm /> 
-      <VideoReel />
     </>
   );
 };
